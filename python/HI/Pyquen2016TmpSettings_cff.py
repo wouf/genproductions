@@ -33,7 +33,7 @@ pyquenParameters  = cms.PSet(doIsospin = cms.bool(True),
 
 hydjetParameters = cms.PSet(sigmaInelNN = cms.double(70),
                             shadowingSwitch = cms.int32(1),
-                            nMultiplicity = cms.int32(12000),
+                            nMultiplicity = cms.int32(10500),
                             fracSoftMultiplicity = cms.double(1.),
                             maxLongitudinalRapidity = cms.double(2.5),
                             maxTransverseRapidity = cms.double(1.19),
@@ -46,7 +46,7 @@ hydjetParameters = cms.PSet(sigmaInelNN = cms.double(70),
 pyquenPythiaDefaultBlock = cms.PSet(
     pythiaUESettingsBlock,
     hydjetPythiaDefault = cms.vstring('MSEL=0   ! user processes',
-                                      'CKIN(3)=9.',# ! ptMin
+                                      'CKIN(3)=8.5',# ! ptMin
                                       'MSTP(81)=1'
                                       ),
     ppDefault = cms.vstring('MSEL=1   ! QCD hight pT processes (only jets)',
