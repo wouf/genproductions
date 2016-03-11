@@ -33,7 +33,7 @@ pyquenParameters  = cms.PSet(doIsospin = cms.bool(True),
 
 hydjetParameters = cms.PSet(sigmaInelNN = cms.double(70),
                             shadowingSwitch = cms.int32(1),
-                            nMultiplicity = cms.int32(10500),
+                            nMultiplicity = cms.int32(10555),
                             fracSoftMultiplicity = cms.double(1.),
                             maxLongitudinalRapidity = cms.double(2.5),
                             maxTransverseRapidity = cms.double(1.19),
